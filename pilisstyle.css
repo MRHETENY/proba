@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body {
+    margin: 0 auto;
+}
+
+.fejlec {
+    background-color: #b6da8c;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:100;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.fejlec img{
+    float:left;
+}
+
+h1{
+    height: 300px;
+    text-align: center;
+    color:#527c05;
+    font-size: 300%;
+}
+
+h2 {
+    background-color: #bbbbbb;
+    color: #ffffff
+}
+
+.hirblokk img {
+    float:left;
+    padding: 0 20px 20px 0;
+}
+
+.hirblokk::after {
+  content: "";
+  clear: both;
+  display: table;
+}

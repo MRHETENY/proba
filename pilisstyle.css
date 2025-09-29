@@ -41,4 +41,19 @@ h2 {
   content: "";
   clear: both;
   display: table;
+
+}
+.Helló img {
+    /* 1. Beállítja a maximális szélességet: */
+    /* A kép szélessége a szülő (a .Helló blokk) 100%-a lesz,
+       de sosem megy ezen túl. */
+    max-width: 100%; 
+    
+    /* 2. Biztosítja az arányos kicsinyítést: */
+    /* Meghagyja a kép magasságát auto-n, ami azt jelenti,
+       hogy a böngésző automatikusan kiszámítja a helyes arányt. */
+    height: auto; 
+    
+    /* Ha a .Helló div-ed szélességét is beállítottad valahol, 
+       a kép ehhez a szélességhez fog igazodni. */
 }

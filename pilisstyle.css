@@ -57,3 +57,12 @@ h2 {
     /* Ha a .Helló div-ed szélességét is beállítottad valahol, 
        a kép ehhez a szélességhez fog igazodni. */
 }
+.Helló {
+    /* Például a maximális szélessége legyen 400 képpont */
+    max-width: 400px; 
+    
+    /* Középre is igazíthatod, ha egyedül áll a sorban */
+    margin-left: auto;
+    margin-right: auto;
+    /* ... és minden más stílus, ami már ott van */
+}
